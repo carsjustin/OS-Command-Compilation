@@ -1,0 +1,11 @@
+rasdial 寬頻連線 {XXXXXAccountXXXXXX@hinet.net} {Password}
+
+開機連線
+Win+R
+shell:startup
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp
+
+工作排程器-建立基本工作-在電腦啟動時執行-啟動程序
+
+斷網重連
+事件檢視器-Windows 紀錄-應用程式-事件RasClient 20226-右鍵附加工作到此事件-啟動程式
