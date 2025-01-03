@@ -1,0 +1,8 @@
+檢測開啟狀態
+Dism /Online /Get-Featureinfo /Featurename:Recall
+
+關閉Recall功能
+Dism /Online /Disable-Feature /Featurename:Recall
+
+開啟Recall功能
+Dism /Online /Enable-Feature /Featurename:Recall
