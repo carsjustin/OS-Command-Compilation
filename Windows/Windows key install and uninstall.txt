@@ -1,3 +1,23 @@
+查詢
+wmic path softwareLicensingService get OA3xOriginalProductKey
+
+移除
 slmgr.vbs /upk
 
+輸入
 slmgr /ipk xxxxx-xxxxx-xxxxx-xxxxx-xxxxx-xxxxx change
+
+註冊表
+\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\SoftwareProtectionPlatform
+找BackupProductKeyDefault
+
+
+KMS
+   slmgr /ipk 啟用碼
+
+　　slmgr /skms kms.loli.best
+
+　　slmgr /ato
+
+　　slmgr /xpr
+https://learn.microsoft.com/zh-cn/windows-server/get-started/kms-client-activation-keys?tabs=server2022%2Cwindows1110ltsc%2Cversion1803%2Cwindows81
